@@ -3,7 +3,7 @@ date: '2021-1-1'
 title: 'Senior Software Engineer'
 company: 'Seamless AB'
 location: 'Lahore, Pakistan'
-range: 'January - April 2020'
+range: 'January - April 2021'
 url: 'https://seamless.se/'
 ---
 

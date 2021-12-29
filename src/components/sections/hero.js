@@ -59,53 +59,52 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Furqan Ullah.</h2>;
+  const three = <h3 className="big-heading">I build things for the mobiles.</h3>;
   const four = (
     <>
       <p>
         I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
+        digital experiences. Currently, I’m focused on building app that aims to provide Free Mobile Internet at{' '}
+        <a href="https://instabridge.com/" target="_blank" rel="noreferrer">
+          Instabridge
         </a>
         .
       </p>
     </>
   );
-  const five = (
-    <a
-      className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
-      target="_blank"
-      rel="noreferrer">
-      Check out my course!
-    </a>
-  );
-
-  const items = [one, two, three, four, five];
-
-  return (
-    <StyledHeroSection>
-      {prefersReducedMotion ? (
-        <>
-          {items.map((item, i) => (
-            <div key={i}>{item}</div>
-          ))}
-        </>
-      ) : (
-        <TransitionGroup component={null}>
-          {isMounted &&
-            items.map((item, i) => (
-              <CSSTransition key={i} classNames="fadeup" timeout={loaderDelay}>
-                <div style={{ transitionDelay: `${i + 1}00ms` }}>{item}</div>
-              </CSSTransition>
-            ))}
-        </TransitionGroup>
-      )}
-    </StyledHeroSection>
-  );
+  // const five = (
+  //   <a
+  //     className="email-link"
+  //     href="https://www.newline.co/courses/build-a-spotify-connected-app"
+  //     target="_blank"
+  //     rel="noreferrer">
+  //     Check out my course!
+  //   </a>
+  // );
+  //
+  // const items = [one, two, three, four, five];
+  //
+  // return (
+  //   <StyledHeroSection>
+  //     {prefersReducedMotion ? (
+  //       <>
+  //         {items.map((item, i) => (
+  //           <div key={i}>{item}</div>
+  //         ))}
+  //       </>
+  //     ) : (
+  //       <TransitionGroup component={null}>
+  //         {isMounted &&
+  //           items.map((item, i) => (
+  //             <CSSTransition key={i} classNames="fadeup" timeout={loaderDelay}>
+  //               <div style={{ transitionDelay: `${i + 1}00ms` }}>{item}</div>
+  //             </CSSTransition>
+  //           ))}
+  //       </TransitionGroup>
+  //     )}
+  //   </StyledHeroSection>
+  // );
 };
 
 export default Hero;
