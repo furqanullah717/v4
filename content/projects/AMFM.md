@@ -1,16 +1,15 @@
 ---
-date: '2017-11-01'
-title: 'Apple Music Facebook Messenger Integration'
-github: ''
-external: 'https://www.theverge.com/2017/10/5/16433770/facebook-messenger-apple-music-bot-song-streaming'
-tech:
-  - Ember
-  - JS
-  - SCSS
-company: 'Apple'
-showInProjects: true
-android : ''
-ios:''
----
 
-Facebook Messenger chat bot extension featuring authentication and full song streaming from within the Messenger app. Read more about it on [The Verge](https://www.theverge.com/2017/10/5/16433770/facebook-messenger-apple-music-bot-song-streaming).
+date: '2019-11-12'
+title: 'Moms Demand Action Mobile App'
+github: ''
+external: 'https://www.upstatement.com/work/moms-demand-action/'
+ios: 'https://apps.apple.com/us/app/demand-action/id1475502876'
+android: 'https://play.google.com/store/apps/details?id=com.momsdemandaction.app'
+tech:
+
+- NativeScript Vue
+- iOS
+- Android
+  company: 'Upstatement'
+  showInProjects: false
