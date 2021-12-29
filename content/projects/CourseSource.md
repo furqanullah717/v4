@@ -3,6 +3,8 @@ date: '2016-04-01'
 title: 'CourseSource'
 github: 'https://github.com/bchiang7/WebDevSpring2016/tree/master/public/project'
 external: ''
+android: ''
+ios: ''
 tech:
   - Angular
   - Node
@@ -10,8 +12,6 @@ tech:
   - MongoDB
 company: 'Northeastern'
 showInProjects: false
-android : ''
-ios:''
 ---
 
 Web application built on the MEAN (MongoDB, Express, Angular, Node) stack with the intention of providing Northeastern students a better experience browsing the courses offered at Northeastern.
