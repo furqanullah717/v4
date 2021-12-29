@@ -1,12 +1,15 @@
 ---
-date: '2018-05-14'
-title: 'Engineer'
-company: 'Upstatement'
-location: 'Boston, MA'
-range: 'May 2018 - Present'
-url: 'https://www.upstatement.com/'
+date: '2021-04-16'
+title: 'Senior Software Engineer'
+company: 'Instabridge'
+location: 'Stockholms, Sweden- Remote'
+range: 'April 2021 - Present'
+url: 'https://www.instabridge.com/'
 ---
 
-- Write modern, performant, maintainable code for a diverse array of client and internal projects
-- Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify
-- Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis
+- Implement features for various applications in Java and Kotlin.
+- Define and implemented robust app architectures and complex user interfaces.
+- Collaborate with quality engineers, user research, product management, design, and support teams to ensure quality in all phases of app development.
+- Apply expert knowledge of Android system frameworks to solve novel problems.
+- Write elegant, self-documenting code, easy to read and adapt for other developers.
+- Collaborate with designers, engineers, and product managers to build great experiences.
